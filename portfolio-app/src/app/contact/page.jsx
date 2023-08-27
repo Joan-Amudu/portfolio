@@ -15,7 +15,7 @@ export default function ContactUs() {
     }
   return (
     <div>
-        <h1>Contact Me</h1>
+        <h2>Contact Me</h2>
         <p>To contact me and subscribe to this website, please enter your name and email address here. We
             will send updates occasionally.
         </p>
@@ -57,7 +57,7 @@ export default function ContactUs() {
                 value={message}
                 onChange={(e) => setMessage(e.target.value)} 
             />     
-      <button type="submit">Submit</button>
+      <Button type="submit">Submit</Button>
       
     </form>
     </div>

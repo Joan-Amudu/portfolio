@@ -3,7 +3,7 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { Button, CardActionArea, CardActions } from '@mui/material';
-// wraps the default MUI Card component to customise it with props
+
 export default function CustomCard({title, children}) {
     return (
         <Card sx={{ maxWidth: 345 }}>
@@ -20,9 +20,8 @@ export default function CustomCard({title, children}) {
                 </CardContent>
             </CardActionArea>
             <CardActions>
-                <Button size="small" color="primary">Share</Button>
+                <Button size="small" color="primary">Learn More</Button>
             </CardActions>
         </Card>
     );
 }
-// ++ Add support for a button text prop as well, test rendering it

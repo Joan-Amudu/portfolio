@@ -7,8 +7,7 @@ function NavBar() {
         return (
             <nav className="NavBar">
                 <ul className="menu">                
-                    <li><Link href="/">Home</Link></li>                   
-                   
+                    <li><Link href="/">Home</Link></li>     
                     <li><Link href="/projects" className={path.startsWith('/projects') ?
                     'active' : null}>Projects</Link></li>
                     <li><Link href="/contact" className={path.startsWith('/contact') ?
